@@ -4,8 +4,7 @@
   "description": "This is the test project",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "server": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Digamber",
@@ -22,6 +21,7 @@
     "passport-jwt": "^4.0.1"
   },
   "devDependencies": {
-    "nodemon": "^1.19.4"
+    "nodemon": "^1.19.4",
+    "parcel": "^2.8.3"
   }
 }
